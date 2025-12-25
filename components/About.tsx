@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Terminal, User } from 'lucide-react';
+import { Code, User } from 'lucide-react';
 import { Reveal3D } from './UI/Reveal3D';
 
 const About: React.FC = () => {
@@ -77,18 +77,6 @@ const About: React.FC = () => {
               <p className="text-gray-400 leading-relaxed mb-8 text-sm md:text-base">
                 We believe most businesses don't need expensive backends. You need a site that loads instantly and converts. We combine our 3+ years of expertise with cutting-edge AI tools to deliver <strong>Unique High-Performance Static Websites</strong>.
               </p>
-
-              <div className="flex flex-col gap-4 items-center md:items-start">
-                <div className="flex items-start gap-4">
-                  <div className="p-2 bg-brand-accent rounded-lg text-brand-red">
-                    <Terminal size={20} />
-                  </div>
-                  <div className="text-left">
-                    <h5 className="text-white font-bold">Expert Engineering</h5>
-                    <p className="text-sm text-gray-500">Led by Edul Hassan Hridoy with 3+ years of frontend mastery.</p>
-                  </div>
-                </div>
-              </div>
             </div>
           </Reveal3D>
 

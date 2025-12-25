@@ -59,8 +59,8 @@ const Pricing: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <Reveal3D width="100%">
           <div className="text-center mb-12 md:mb-16">
-            <h2 className="text-sm font-bold tracking-widest text-brand-red uppercase mb-2">Our Packages</h2>
-            <h3 className="text-3xl md:text-5xl font-display font-bold text-white">Transparent Pricing</h3>
+            <div className="text-sm font-bold tracking-widest text-brand-red uppercase mb-2">Our Packages</div>
+            <h2 className="text-3xl md:text-5xl font-display font-bold text-white">Transparent Pricing</h2>
             <p className="mt-4 text-gray-400">No hidden fees. One-time payment.</p>
           </div>
         </Reveal3D>
@@ -80,9 +80,9 @@ const Pricing: React.FC = () => {
                   </div>
                 )}
 
-                <h4 className={`text-xl font-bold font-display tracking-wider mb-2 ${tier.recommended ? 'text-brand-red' : 'text-white'}`}>
+                <h3 className={`text-xl font-bold font-display tracking-wider mb-2 ${tier.recommended ? 'text-brand-red' : 'text-white'}`}>
                   {tier.name}
-                </h4>
+                </h3>
                 <div className="flex items-baseline mb-4">
                   <span className="text-4xl font-black text-white">{tier.price}</span>
                 </div>

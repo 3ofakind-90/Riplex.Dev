@@ -6,6 +6,7 @@
     <title>Riplex Dev | Premium Static Web Development</title>
     <meta name="description" content="Riplex Dev - Crafting modern websites and premium static web development in Sylhet. High-quality static websites starting from 2,999৳." />
     <meta name="google-site-verification" content="RRoyIHvk4Q97O7ft7GON8c_Kbiw1fYjAUPDvTlL6yWk" />
+    <link rel="canonical" href="https://riplexdev.vercel.app/" />
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23DC2626' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='16 18 22 12 16 6'></polyline><polyline points='8 6 2 12 8 18'></polyline></svg>" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
@@ -19,9 +20,9 @@
             },
             colors: {
               brand: {
-                red: '#DC2626', // Red-600
-                dark: '#0A0A0A', // Neutral-950
-                accent: '#171717', // Neutral-900
+                red: '#DC2626',
+                dark: '#0A0A0A',
+                accent: '#171717',
               }
             },
             animation: {
@@ -46,20 +47,12 @@
         background-color: #0A0A0A;
         color: #ffffff;
       }
-      /* Custom Scrollbar */
-      ::-webkit-scrollbar {
-        width: 10px;
-      }
-      ::-webkit-scrollbar-track {
-        background: #171717;
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #DC2626;
-        border-radius: 5px;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: #B91C1C;
-      }
+      ::-webkit-scrollbar { width: 10px; }
+      ::-webkit-scrollbar-track { background: #171717; }
+      ::-webkit-scrollbar-thumb { background: #DC2626; border-radius: 5px; }
+      ::-webkit-scrollbar-thumb:hover { background: #B91C1C; }
+      /* Hide SEO content visually but keep it accessible for parsers */
+      .seo-fallback { position: absolute; left: -9999px; top: -9999px; opacity: 0; pointer-events: none; }
     </style>
   <script type="importmap">
 {
@@ -75,9 +68,146 @@
   }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://riplexdev.vercel.app/#organization",
+      "name": "Riplex Dev",
+      "url": "https://riplexdev.vercel.app/",
+      "description": "Riplex Dev is a premium static web development agency in Sylhet, specializing in high-performance, modern websites using AI technology.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Sylhet",
+        "addressRegion": "Sylhet",
+        "addressCountry": "BD"
+      },
+      "telephone": "+8801843489299",
+      "email": "hassanehr9009@gmail.com",
+      "priceRange": "2999 BDT - 7999 BDT",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a Static Website?",
+          "acceptedAnswer": { "@type": "Answer", "text": "A static website is made up of fixed HTML files that are delivered to the user's browser exactly as stored. Unlike dynamic sites that require a database and server-side processing for every request, static sites load instantly, are more secure, and cost significantly less to host." }
+        },
+        {
+          "@type": "Question",
+          "name": "Why should I choose Riplex Dev?",
+          "acceptedAnswer": { "@type": "Answer", "text": "We combine years of coding expertise with modern AI tools to deliver websites that are not only beautiful but engineered for performance. We focus on 'Mobile First' design, ensuring your site looks perfect on phones, and we include essential features like SEO structure and speed optimization in every package." }
+        },
+        {
+            "@type": "Question",
+            "name": "Do I need to pay monthly fees?",
+            "acceptedAnswer": { "@type": "Answer", "text": "No! Our development packages are one-time payments. You will only need to renew your Domain name and Hosting annually, which is standard for all websites. We guide you through the hosting setup process to keep your running costs minimal." }
+        },
+        {
+            "@type": "Question",
+            "name": "How long will it take to build my site?",
+            "acceptedAnswer": { "@type": "Answer", "text": "We pride ourselves on speed. Our Basic Package is delivered within 24 hours. The Standard Package takes approximately 48 hours, depending on the content you provide. We work efficiently to get your business online as fast as possible." }
+        },
+        {
+            "@type": "Question",
+            "name": "Is SEO included in the packages?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Yes, we build every website with an SEO-friendly structure. This includes proper semantic HTML tags (H1, H2, etc.), meta descriptions, and Open Graph tags so your site looks great when shared on social media. This gives you a strong foundation for Google rankings." }
+        },
+        {
+            "@type": "Question",
+            "name": "Can I update the content myself?",
+            "acceptedAnswer": { "@type": "Answer", "text": "For static websites, content updates typically require a developer. However, since we write clean, organized code, minor text changes are straightforward. If you anticipate needing frequent updates, let us know, and we can discuss a maintenance arrangement or hybrid solution." }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div class="seo-fallback">
+        <header>
+          <h1>Riplex Dev - Premium Static Web Development Agency in Sylhet</h1>
+          <p>CRAFTING MODERN WEBSITES. We specialize in crafting modern websites leveraging AI Technology to build unique, high-performance static sites. No Database. No Slow Backends. Pure Speed.</p>
+        </header>
+
+        <main>
+          <section>
+            <h2>Our Services</h2>
+            <ul>
+              <li><strong>Static Website Development:</strong> We use modern AI technology to craft unique, blazing fast, and unbreakable frontend websites. No backend maintenance required.</li>
+              <li><strong>Mobile First Design:</strong> Your site will look perfect on every device, from the smallest iPhone SE to large desktop 4K monitors.</li>
+              <li><strong>Speed Optimization:</strong> We optimize images and code to ensure near-instant load times, boosting your SEO rankings.</li>
+              <li><strong>SEO Friendly Structure:</strong> Semantic HTML tags, meta descriptions, and Open Graph tags ready for Google indexing.</li>
+              <li><strong>Interactive Elements:</strong> Modern animations, hover effects, and 3D interactions to keep your visitors engaged.</li>
+              <li><strong>Secure & Reliable:</strong> Hosted on Cloudflare's global network. 99.99% uptime and protection against DDoS attacks.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Transparent Pricing</h2>
+            <article>
+              <h3>BASIC - 2,999৳</h3>
+              <p>Perfect for personal portfolios or landing pages. Features: 1 Page Website, Mobile Responsive, Call / WhatsApp Button, Google Map Integration, Delivery: 24 Hours.</p>
+            </article>
+            <article>
+              <h3>STANDARD - 4,999৳</h3>
+              <p>Our most popular package for small businesses. Features: 5 Pages Website, SEO Friendly Structure, Contact Form (Email-based), Free Hosting Guide, Delivery: 48 Hours.</p>
+            </article>
+            <article>
+              <h3>PREMIUM - 7,999৳</h3>
+              <p>High-end design with 3D elements and interactions. Features: 3D-style Frontend Dev, Speed Optimization, Image Optimization, Domain Setup Guide, 7 Days Free Support.</p>
+            </article>
+          </section>
+
+          <section>
+            <h2>About Riplex Dev</h2>
+            <p>We Don't Just Write Code, We Architect Experiences. Based in Chondipul, Sylhet, Riplex Dev leverages Modern AI Technology to craft unique, futuristic frontend designs that stand out in a crowded digital landscape.</p>
+            <p>We firmly believe that the majority of small to medium-sized businesses do not require complex, expensive backends that slow down performance and increase maintenance costs. Instead, what you truly need is a website that loads instantly, looks stunning, and effectively converts visitors into customers.</p>
+            <h3>Leadership</h3>
+            <ul>
+                <li>Edul Hassan Hridoy - Founder & CEO</li>
+                <li>Sakyf Jawad - Senior Officer</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2>Frequently Asked Questions</h2>
+            <dl>
+              <dt>What is a Static Website?</dt>
+              <dd>A static website is made up of fixed HTML files that are delivered to the user's browser exactly as stored. Unlike dynamic sites that require a database and server-side processing for every request, static sites load instantly, are more secure, and cost significantly less to host.</dd>
+              <dt>Why should I choose Riplex Dev?</dt>
+              <dd>We combine years of coding expertise with modern AI tools to deliver websites that are not only beautiful but engineered for performance. We focus on 'Mobile First' design, ensuring your site looks perfect on phones, and we include essential features like SEO structure and speed optimization in every package.</dd>
+              <dt>Do I need to pay monthly fees?</dt>
+              <dd>No! Our development packages are one-time payments. You will only need to renew your Domain name and Hosting annually, which is standard for all websites.</dd>
+              <dt>How long will it take to build my site?</dt>
+              <dd>We pride ourselves on speed. Our Basic Package is delivered within 24 hours. The Standard Package takes approximately 48 hours.</dd>
+              <dt>Is SEO included in the packages?</dt>
+              <dd>Yes, we build every website with an SEO-friendly structure. This includes proper semantic HTML tags (H1, H2, etc.), meta descriptions, and Open Graph tags.</dd>
+              <dt>Can I update the content myself?</dt>
+              <dd>For static websites, content updates typically require a developer. However, since we write clean, organized code, minor text changes are straightforward.</dd>
+            </dl>
+          </section>
+
+          <section>
+            <h2>Get In Touch</h2>
+            <p>Visit Us: Chondipul, Sylhet, Bangladesh</p>
+            <p>Email: hassanehr9009@gmail.com</p>
+            <p>WhatsApp: +880 1843 489299</p>
+          </section>
+        </main>
+      </div>
+    </div>
     <script type="module" src="/index.tsx"></script>
   </body>
 </html>

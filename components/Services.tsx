@@ -41,8 +41,8 @@ const Services: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Reveal3D width="100%">
           <div className="text-center mb-12 md:mb-16">
-            <h2 className="text-sm font-bold tracking-widest text-brand-red uppercase mb-2">What We Do</h2>
-            <h3 className="text-3xl md:text-5xl font-display font-bold text-white">Premium Services</h3>
+            <div className="text-sm font-bold tracking-widest text-brand-red uppercase mb-2">What We Do</div>
+            <h2 className="text-3xl md:text-5xl font-display font-bold text-white">Premium Services</h2>
           </div>
         </Reveal3D>
 
@@ -53,9 +53,9 @@ const Services: React.FC = () => {
                 <div className="mb-6 p-4 bg-brand-dark rounded-xl inline-block w-fit group-hover:scale-110 transition-transform duration-300 border border-gray-800">
                   {service.icon}
                 </div>
-                <h4 className="text-xl font-bold text-white mb-3 group-hover:text-brand-red transition-colors">
+                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-brand-red transition-colors">
                   {service.title}
-                </h4>
+                </h3>
                 <p className="text-gray-400 leading-relaxed text-sm md:text-base">
                   {service.description}
                 </p>

@@ -27,8 +27,8 @@ const Contact: React.FC = () => {
         
         <Reveal3D width="100%">
             <div className="text-center mb-12 md:mb-16">
-            <h2 className="text-sm font-bold tracking-widest text-brand-red uppercase mb-2">Get In Touch</h2>
-            <h3 className="text-3xl md:text-5xl font-display font-bold text-white">Let's Build Something Great</h3>
+            <div className="text-sm font-bold tracking-widest text-brand-red uppercase mb-2">Get In Touch</div>
+            <h2 className="text-3xl md:text-5xl font-display font-bold text-white">Let's Build Something Great</h2>
             </div>
         </Reveal3D>
 
@@ -107,7 +107,7 @@ const Contact: React.FC = () => {
                   <MapPin />
                 </div>
                 <div>
-                  <h4 className="text-white font-bold text-lg mb-1">Visit Us</h4>
+                  <h3 className="text-white font-bold text-lg mb-1">Visit Us</h3>
                   <p className="text-gray-400 text-sm">Chondipul, Sylhet, Bangladesh</p>
                 </div>
               </div>
@@ -117,7 +117,7 @@ const Contact: React.FC = () => {
                   <Mail />
                 </div>
                 <div>
-                  <h4 className="text-white font-bold text-lg mb-1">Email Us</h4>
+                  <h3 className="text-white font-bold text-lg mb-1">Email Us</h3>
                   <a href="mailto:hassanehr9009@gmail.com" className="text-gray-400 text-sm hover:text-white transition-colors">hassanehr9009@gmail.com</a>
                 </div>
               </div>
@@ -127,7 +127,7 @@ const Contact: React.FC = () => {
                   <Phone />
                 </div>
                 <div>
-                  <h4 className="text-white font-bold text-lg mb-1">WhatsApp</h4>
+                  <h3 className="text-white font-bold text-lg mb-1">WhatsApp</h3>
                   <p className="text-gray-400 text-sm">+880 1843 489299</p>
                 </div>
               </div>

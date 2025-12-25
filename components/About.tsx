@@ -22,11 +22,11 @@ const About: React.FC = () => {
                  
                  <div className="grid grid-cols-2 gap-4 mt-auto relative z-10">
                     <div className="p-3 md:p-4 bg-brand-dark rounded-lg border border-gray-700">
-                        <h4 className="text-2xl md:text-3xl font-bold text-white mb-1">3+</h4>
+                        <div className="text-2xl md:text-3xl font-bold text-white mb-1">3+</div>
                         <p className="text-[10px] md:text-xs text-gray-400 uppercase">Years Exp.</p>
                     </div>
                     <div className="p-3 md:p-4 bg-brand-dark rounded-lg border border-gray-700">
-                        <h4 className="text-2xl md:text-3xl font-bold text-white mb-1">100%</h4>
+                        <div className="text-2xl md:text-3xl font-bold text-white mb-1">100%</div>
                         <p className="text-[10px] md:text-xs text-gray-400 uppercase">Static Speed</p>
                     </div>
                  </div>
@@ -44,7 +44,7 @@ const About: React.FC = () => {
                         </div>
                         <p className="text-[10px] font-bold tracking-widest text-brand-red uppercase">Founder & CEO</p>
                     </div>
-                    <h4 className="text-white font-display font-bold text-lg group-hover:translate-x-1 transition-transform">Edul Hassan Hridoy</h4>
+                    <h3 className="text-white font-display font-bold text-lg group-hover:translate-x-1 transition-transform">Edul Hassan Hridoy</h3>
                 </div>
 
                 {/* Senior Officer Box */}
@@ -55,7 +55,7 @@ const About: React.FC = () => {
                         </div>
                         <p className="text-[10px] font-bold tracking-widest text-brand-red uppercase">Senior Officer</p>
                     </div>
-                    <h4 className="text-white font-display font-bold text-lg group-hover:translate-x-1 transition-transform">Sakyf Jawad</h4>
+                    <h3 className="text-white font-display font-bold text-lg group-hover:translate-x-1 transition-transform">Sakyf Jawad</h3>
                 </div>
               </div>
               
@@ -66,16 +66,16 @@ const About: React.FC = () => {
 
           <Reveal3D direction="right">
             <div className="text-center md:text-left">
-              <h2 className="text-sm font-bold tracking-widest text-brand-red uppercase mb-2">About Riplex Dev</h2>
-              <h3 className="text-3xl md:text-5xl font-display font-bold text-white mb-6">
+              <div className="text-sm font-bold tracking-widest text-brand-red uppercase mb-2">About Riplex Dev</div>
+              <h2 className="text-3xl md:text-5xl font-display font-bold text-white mb-6">
                 We Don't Just Write Code, <br/>
                 We Architect Experiences.
-              </h3>
+              </h2>
               <p className="text-gray-400 leading-relaxed mb-6 text-sm md:text-base">
-                Based in <span className="text-white font-semibold">Chondipul, Sylhet</span>, Riplex Dev leverages <strong>Modern AI Technology</strong> to craft unique, futuristic frontend designs that stand out.
+                Based in <span className="text-white font-semibold">Chondipul, Sylhet</span>, Riplex Dev leverages <strong>Modern AI Technology</strong> to craft unique, futuristic frontend designs that stand out in a crowded digital landscape.
               </p>
               <p className="text-gray-400 leading-relaxed mb-8 text-sm md:text-base">
-                We believe most businesses don't need expensive backends. You need a site that loads instantly and converts. We combine our 3+ years of expertise with cutting-edge AI tools to deliver <strong>Unique High-Performance Static Websites</strong>.
+                We firmly believe that the majority of small to medium-sized businesses do not require complex, expensive backends that slow down performance and increase maintenance costs. Instead, what you truly need is a website that loads instantly, looks stunning, and effectively converts visitors into customers. By combining our 3+ years of deep industry expertise with state-of-the-art AI development tools, we deliver <strong>Unique, High-Performance Static Websites</strong> that set you apart. Our approach ensures your digital presence is not only visually captivating but also technically superior, offering unmatched speed, security, and reliability.
               </p>
             </div>
           </Reveal3D>

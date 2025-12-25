@@ -2,7 +2,7 @@
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>Riplex Dev | Premium Static Web Development</title>
     <meta name="description" content="Riplex Dev - Frontend Web Development Agency in Sylhet. High-quality static websites starting from 2,999৳." />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -36,10 +36,13 @@
       }
     </script>
     <style>
-      body {
+      html, body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+        position: relative;
         background-color: #0A0A0A;
         color: #ffffff;
-        overflow-x: hidden;
       }
       /* Custom Scrollbar */
       ::-webkit-scrollbar {

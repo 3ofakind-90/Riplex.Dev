@@ -25,14 +25,14 @@ const App: React.FC = () => {
 
   return (
     <Router>
-      <div className="bg-brand-dark min-h-screen text-white font-sans selection:bg-brand-red selection:text-white">
+      <div className="bg-brand-dark min-h-screen text-white font-sans selection:bg-brand-red selection:text-white overflow-x-hidden w-full relative">
         
         <AnimatePresence>
           {loading && <Loader />}
         </AnimatePresence>
 
         <Navbar />
-        <main>
+        <main className="w-full overflow-x-hidden">
           <Hero />
           <Services />
           <Pricing />

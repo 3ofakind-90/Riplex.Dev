@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
         </Reveal3D>
 
         <Reveal3D delay={0.2}>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-black tracking-tighter text-white mb-6 leading-tight">
+          <h1 className="text-4xl md:text-7xl lg:text-8xl font-display font-black tracking-tighter text-white mb-6 leading-tight">
             CRAFTING <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-red to-red-800" style={{ textShadow: '0px 10px 30px rgba(220, 38, 38, 0.3)' }}>
               DIGITAL REALITY

@@ -61,7 +61,7 @@ const Pricing: React.FC = () => {
           <div className="text-center mb-12 md:mb-16">
             <div className="text-sm font-bold tracking-widest text-brand-red uppercase mb-2">Our Packages</div>
             <h2 className="text-3xl md:text-5xl font-display font-bold text-white">Transparent Pricing</h2>
-            <p className="mt-4 text-gray-400">No hidden fees. One-time payment.</p>
+            <p className="mt-4 text-gray-400">Choose the perfect plan for your business.</p>
           </div>
         </Reveal3D>
 
@@ -83,10 +83,14 @@ const Pricing: React.FC = () => {
                 <h3 className={`text-xl font-bold font-display tracking-wider mb-2 ${tier.recommended ? 'text-brand-red' : 'text-white'}`}>
                   {tier.name}
                 </h3>
+                
+                {/* Price removed as requested
                 <div className="flex items-baseline mb-4">
                   <span className="text-4xl font-black text-white">{tier.price}</span>
                 </div>
-                <p className="text-sm text-gray-400 mb-8 h-auto min-h-[2.5rem] text-center md:text-left">{tier.description}</p>
+                */}
+
+                <p className="text-sm text-gray-400 mb-8 h-auto min-h-[2.5rem] text-center md:text-left mt-4">{tier.description}</p>
 
                 <ul className="space-y-4 mb-8 w-full">
                   {tier.features.map((feature, idx) => (
